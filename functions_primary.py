@@ -1,5 +1,5 @@
-# author:
-# date:
+# author:Malik turner
+# date:7/7/21
 
 
 # --------------- Section 1 --------------- #
@@ -25,8 +25,11 @@
 # 1 is done for you.
 
 print('The absolute value of -15 is:', abs(-15))
-
-
+hex(21)
+id(21)
+pow(2, 5)
+print(round(3.75123))
+print(len('Malikturner'))
 # --------------- Section 2 --------------- #
 
 # 1 | Function Definitions no Parameters
@@ -43,7 +46,14 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
-
+def mt():
+    print('Malik')
+mt()
+def animals():
+    print('snake')
+    print('monkey')
+    print('lions')
+animals()
 
 # 2 | Function Definitions with Parameters
 #
@@ -71,3 +81,8 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+def math():
+    print(2^2)
+    print(3+3+3)
+    print('five'*5)
+math()
